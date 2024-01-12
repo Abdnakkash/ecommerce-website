@@ -1,8 +1,9 @@
 E-Commerce Website
-##Introduction:
+
+## Introduction:
 Welcome to our modern and sophisticated e-commerce website, meticulously crafted to provide a seamless and enjoyable online shopping experience. Leveraging a comprehensive tech stack, we've combined the power of HTML, CSS, JS on the front end, PHP on the back end, SQL for database management, and the PhpMailer tool for efficient communication.
 
-##Key Features:
+## Key Features:
 1. WebSite Details
 Our website is designed with user experience in mind, ensuring easy navigation and engagement. Here are some key highlights:
 
@@ -35,7 +36,7 @@ The SQL database is employed for efficient data management, providing a secure a
 5. PhpMailer Tool
 To streamline communication, we leverage the PhpMailer tool, ensuring reliable and secure email functionality for essential notifications and user interactions.
 
-##Website Pages:
+## Website Pages:
 Home Page:
 
 Dynamic Swiper for engaging visuals.
@@ -56,7 +57,7 @@ Login and Register Page:
 
 Utilizes JavaScript for a seamless transition between login and registration forms.
 
-##Fully Functional User Experience:
+## Fully Functional User Experience:
 User Registration and Login:
 
 Users can create accounts, log in securely, and enjoy a personalized experience.
@@ -67,7 +68,7 @@ User Profile:
 
 Each user has a dedicated profile section to track orders, update personal information, and manage preferences.
 
-##Admin Control:
+## Admin Control:
 Product Management:
 
 Admins have full control over products, with the ability to add, delete, and edit product details.
@@ -75,5 +76,5 @@ Order Management:
 
 Complete visibility into all orders, allowing admins to process, cancel, and track orders efficiently.
 
-##Conclusion:
+## Conclusion:
 Our fully functional e-commerce website offers a comprehensive online shopping experience. Users can seamlessly register, log in, place orders, and manage their profiles. Admins have powerful tools to control products, monitor orders, and ensure a smooth operation. Explore the website and enjoy the convenience of modern e-commerce with us.
