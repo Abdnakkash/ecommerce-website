@@ -17,15 +17,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = '11831663@students.liu.edu.lb';
-    $mail->Password = 'AbdNa12@@$$.';
+    $mail->Username = 'Your Email';
+    $mail->Password = 'password';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
     // Email settings
     $mail->isHTML(true);
     $mail->setFrom($email, $name);
-    $mail->addAddress("11831663@students.liu.edu.lb");
+    $mail->addAddress("Your Email");
     $mail->Subject = "New Contact Form Submission";
     $mail->Body = "Name: $name<br>Email: $email<br>Message: $message";
 
