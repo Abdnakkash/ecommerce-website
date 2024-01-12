@@ -25,12 +25,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->isSMTP();
             $mail->Host = "smtp.gmail.com";
             $mail->SMTPAuth = true;
-            $mail->Username = '11831663@students.liu.edu.lb';
-            $mail->Password = 'AbdNa12@@$$.';
+            $mail->Username = 'Your Email';
+            $mail->Password = 'Password';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
 
-            $mail->setFrom('11831663@students.liu.edu.lb', 'Sneakers Club');
+            $mail->setFrom('Your Email', 'Sneakers Club');
             $mail->addAddress($email, $firstName . ' ' . $lastName);
 
             $mail->isHTML(true);
