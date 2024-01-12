@@ -1,0 +1,45 @@
+CREATE TABLE `categories` (
+ `name` varchar(255) NOT NULL,
+ PRIMARY KEY (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+------------------------------------------------------------------
+CREATE TABLE `orders` (
+ `order_id` int(11) NOT NULL AUTO_INCREMENT,
+ `first_name` varchar(255) NOT NULL,
+ `last_name` varchar(255) NOT NULL,
+ `product_name` varchar(255) NOT NULL,
+ `price` decimal(10,2) NOT NULL,
+ `size` varchar(50) NOT NULL,
+ `email` varchar(255) NOT NULL,
+ `address` text NOT NULL,
+ `total_amount` decimal(10,2) NOT NULL,
+ `order_date` timestamp NOT NULL DEFAULT current_timestamp(),
+ `status` varchar(255) DEFAULT NULL,
+ PRIMARY KEY (`order_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+------------------------------------------------------------------
+
+CREATE TABLE `products` (
+ `productid` int(11) NOT NULL AUTO_INCREMENT,
+ `productname` varchar(255) NOT NULL,
+ `img` varchar(255) NOT NULL,
+ `price` decimal(10,2) NOT NULL,
+ `size` varchar(10) NOT NULL,
+ `description` text DEFAULT NULL,
+ `categoryname` varchar(255) NOT NULL,
+ `img_data` longblob DEFAULT NULL,
+ PRIMARY KEY (`productid`),
+ KEY `categoryname` (`categoryname`),
+ CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryname`) REFERENCES `categories` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
+------------------------------------------------------------------
+
+CREATE TABLE `users` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `firstname` varchar(50) NOT NULL,
+ `lastname` varchar(50) NOT NULL,
+ `password` varchar(255) NOT NULL,
+ `email` varchar(100) NOT NULL,
+ `address` varchar(255) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
