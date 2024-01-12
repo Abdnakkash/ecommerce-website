@@ -24,12 +24,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['cancel_order'])) {
         $mail->isSMTP();
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true;
-        $mail->Username = '11831663@students.liu.edu.lb';
-        $mail->Password = 'AbdNa12@@$$.';
+        $mail->Username = 'Your Email';
+        $mail->Password = 'password';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
-        $mail->setFrom('11831663@students.liu.edu.lb', 'admin');
+        $mail->setFrom('Your Email', 'admin');
         $mail->addAddress($order['email'], $order['first_name']);
 
         $mail->isHTML(true);
