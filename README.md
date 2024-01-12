@@ -1,4 +1,4 @@
-E-Commerce Website
+## E-Commerce Website
 
 ## Introduction:
 Welcome to our modern and sophisticated e-commerce website, meticulously crafted to provide a seamless and enjoyable online shopping experience. Leveraging a comprehensive tech stack, we've combined the power of HTML, CSS, JS on the front end, PHP on the back end, SQL for database management, and the PhpMailer tool for efficient communication.
