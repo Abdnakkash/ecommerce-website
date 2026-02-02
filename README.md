@@ -78,3 +78,7 @@ Complete visibility into all orders, allowing admins to process, cancel, and tra
 
 ## Conclusion:
 Our fully functional e-commerce website offers a comprehensive online shopping experience. Users can seamlessly register, log in, place orders, and manage their profiles. Admins have powerful tools to control products, monitor orders, and ensure a smooth operation. Explore the website and enjoy the convenience of modern e-commerce with us.
+live demo: https://sneakersclub.infinityfree.me/
+<img width="1920" height="4915" alt="screencapture-localhost-project-index-php-2026-02-02-18_27_48" src="https://github.com/user-attachments/assets/7034021f-42d3-4322-8bb0-3579736c3b60" />
+
+
